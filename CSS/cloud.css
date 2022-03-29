@@ -1,0 +1,236 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu'serif;
+}
+/************************************************************/
+#index-cloud{
+    position: relative;
+  }
+
+#index-cloud h1{
+    position: absolute;
+    top: 8rem;
+    left: 42%;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    color: #15d0e5;
+   }
+   #download-cloud{
+    background:#031d33;
+     margin-top: 6rem;
+     border:1px solid rgb(70, 190, 226);
+     }
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-cloud .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+	#index-cloud .section {
+    top: 0;
+    }
+    #index-cloud h1{
+      font-size: 3rem;
+      margin-top: 2rem;
+      line-height: 2.2rem;
+    }
+    #download-cloud{
+     font-size: 12px;
+     font-weight: bold;
+      }
+    }
+
+    .line{
+        position: relative;
+    }
+/*
+    .line-title{
+        margin-top:0;
+        position: absolute;
+        left:-1rem;
+        top: 20rem;
+        font-size:20px;
+        transform: rotate(-90deg);
+    }
+    
+    .line-title::after{
+        width: 100px;
+        height: 3px;
+        background-color: #5CE0F2;
+        content: "";
+        position:absolute;
+        left:-120px;
+        top:9px;
+    }
+*/    
+.block_one{
+	width: 70px;
+	height: 2px;
+	background: #5fc3e4; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #5fc3e4 0%, #09536b 100%);
+	background: -webkit-linear-gradient(-45deg, #5fc3e4 0%, #09536b 100%);
+	background: linear-gradient(135deg, #5fc3e4 0%, #09536b 100%);
+	margin-left: 10rem;
+    margin-bottom: 50px;
+}
+
+.container-cloud{
+  background-color: rgb(236, 234, 234);
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    font-family: "Ubuntu", serif;
+    margin: 0em;
+   }
+  #container-cloud img {
+    margin: 8em 0rem 5rem 2rem;
+    height: 50vh;
+    width: 20%;
+  }
+  #container-cloud .work-text {
+    width: 80%;
+    margin-top: -1.7em;
+    padding: 1em 0 1em 2em;
+    display: flex;
+    flex-direction: column;
+  }
+  #container-cloud h3 {
+    padding: 3rem 0rem 0rem 0rem;
+    font-size: 2.2em;
+    font-weight: 600;
+    margin: 0.3em 0;
+    line-height: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'ubuntu', serif;
+  }
+  #container-cloud p {
+    font-size: 1.2em;
+    line-height: 2rem;
+    text-indent: 1.5rem;
+    text-align: justify;
+    margin: 0rem 5rem 0rem 2rem;
+    font-family: 'Ubuntu', serif;
+  }
+
+  @media only screen and (max-width : 992px) {
+   
+    }
+    
+  
+  @media only screen and (max-width : 600px) {
+    .container-cloud{
+       height: 105vh;
+       position:relative;
+       margin:0;
+       padding: 0;
+      }
+      #container-cloud .work-text {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        }
+        #container-cloud p{
+          text-align: justify;
+        }
+        #container-cloud img {
+        position: absolute;
+        opacity: 0.4;
+        top:9rem;
+        left: 10%;
+        width: 60%;
+        }
+    }
+  /***************************************************************/
+  .vantagens {
+	background-color:rgb(54, 54, 54);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	color: #F2F9FF;
+	min-height: 50vh;
+	padding: 1em 1em 4em;
+	}
+
+	.vantagens h2 {
+  font-size: 1.5em;
+	position: relative;
+	margin: 0 0.3em 4rem auto;
+	top: .5em;
+	font-weight: 700;
+	}
+	.vantagens h2 i {
+	color: #5CE0F2;
+	}
+	.vantagens-Bi{
+  margin: 2rem 0rem;
+	}
+  .vantagens h4{
+    color:#5CE0F2 ;
+  }
+ /*******************************************************************/
+  #purpose {
+    background-color: rgb(236, 234, 234);
+    min-height: auto;
+    padding-top: 2rem;
+    margin:0;
+    padding-bottom: 2rem;
+    font-family: 'Ubuntu'serif;
+  }
+  #purpose .container-fluid {
+    padding-left: 0;
+    padding-right: 0,2,;
+  }
+  #purpose hr {
+    background-color: #5CE0F2;
+    height: 1px;
+    margin: 45px 0;
+  }
+  #purpose h3 {
+    font-family: "Ubuntu",serif;
+    font-size: 4rem;
+    letter-spacing: -2px;
+    margin-bottom: 1rem;
+   
+  }
+  #purpose .text-light {
+    font-family: "Ubuntu",serif;
+    font-size: 22px;
+    line-height: 34px;
+    }
+
+  .full-screen {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .block_one{
+    width: 15rem;
+    height: 2px;
+    background: #5fc3e4; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #5fc3e4 0%, #09536b 100%);
+    background: -webkit-linear-gradient(-45deg, #5fc3e4 0%, #09536b 100%);
+    background: linear-gradient(135deg, #5fc3e4 0%, #09536b 100%);
+    margin-left: 0rem;
+      margin-bottom: 50px;
+  }
+  
+
+  
+
+  
