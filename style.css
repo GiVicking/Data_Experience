@@ -824,6 +824,11 @@ text-decoration: none;
     color: #5CE0F2;
     border: 1px solid #5CE0F2;
   }
+
+  .coop a span{
+    color: #5CE0F2;
+    margin: 0 .2rem;
+  }
   /***********************************************************************************************
   *************************************************************************************************
   ************************************************************************************************/
@@ -862,16 +867,16 @@ text-decoration: none;
    
     top: 17rem;
     width: 15rem;
-    left: 4.5rem;
+    left: 4.7rem;
    }
   .header_h2{
     position: absolute;
     top: 4rem;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
     header p {
-    font-size: .8rem;
+    font-size: 1.2rem;
     position: absolute;
     top: 9rem;
   }
