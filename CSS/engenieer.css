@@ -7,57 +7,12 @@
 	font-family: 'Ubuntu'serif;
 }
 /************************************************************/
-#index-header_BI{
-  position: relative;
+#arrow{
+  text-align: center;
+  background-color: rgba(233, 233, 235, 0.5);
+	border: 1px solid #0e2c4f;
+	border-radius: 2px;
 }
-#index-header_BI h1{
-  position: absolute;
-  top: 8rem;
-  left: 25%;
-  margin: 0;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 4rem;
-  color: #15d0e5;
- }
- #download-button_BI{
-  background-color:#0c1b31;
-  margin-top: 6rem;
-   border:1px solid #15d0e5;
-   }
-@media only screen and (max-width : 992px) {
-.parallax-container .section {
-  position: absolute;
-  top: 40%;
-}
-#index-banner .section {
-  top: 10%;
-}
-#index-header_BI .section {
-  top: 0;
-  }
-  #index-header_BI h1{
-    font-size: 3rem;
-  }
-  #download-button_BI{
-    font-size: 12px;
-   font-weight: bold;
-    }
-}
-
-@media only screen and (max-width : 600px) {
-#index-header_BI .section {
-  top: 0;
-  }
-  #index-header_BI h1{
-    font-size: 3rem;
-   
-}
-  #download-button_BI{
-    
-   font-size: 12px;
-   font-weight: bold;
-    }
-  }
 /****************************************************************/   
 .intro-engenieer{
 color:000;

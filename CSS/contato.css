@@ -1,0 +1,90 @@
+
+
+
+ .work-engenieer{
+    background-color: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    margin: 0em 0 0;
+    color: #F2F9FF;
+  }
+ 
+  .work-engenieer img {
+    background-color: #58bdca;
+    margin-top: 13rem;
+    margin-right: 2rem;
+    width: 100%;
+    max-width: 150px;
+    height: 150px;
+   
+  }
+  .work-engenieer .work-text {
+    width: 100%;
+    max-width: 600px;
+    padding: 0 1.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .work-engenieer .work-text h3 {
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 1.7rem;
+    font-weight: 700;
+    margin: 3em 0 1.2em -0.2em;
+    align-self: center;
+    text-transform: uppercase;
+  }
+  .work-engenieer .work-text p {
+    margin: 1rem 0rem 0rem 0rem;
+    font-size: 1.2em;
+    line-height: 1.5rem;
+    text-align: justify;
+    text-indent: 1.5rem;
+    
+  }
+  .work-engenieer .work-text .work-cta {
+    border: 1px solid #5CE0F2;
+    padding: 0.7em 1em;
+    text-transform: uppercase;
+    margin: 2rem 0rem 5rem 10rem;
+    background-color:#0e2c4f ;
+    color: #ffff;
+   
+    cursor: pointer;
+  }
+   .work-text .work-cta:hover {
+    background: #F2F9FF;
+    color: #0e2c4f;
+    border: 1px solid #0e2c4f;
+   cursor: pointer;
+  }
+  .tel{
+      text-align: left;
+      font-weight: bold;
+  }
+
+  @media only screen and (max-width : 992px) {
+
+  }
+   
+    
+  @media only screen and (max-width : 600px) {
+    .work-engenieer .work-text .work-cta {
+      margin: 2rem 6rem;
+    
+    }
+    .work-engenieer img {
+        margin: 0;
+    }
+    .work-engenieer .work-text p{
+        text-align: left;
+    }
+    }

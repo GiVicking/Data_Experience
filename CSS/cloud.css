@@ -8,72 +8,13 @@
 	font-family: 'Ubuntu'serif;
 }
 /************************************************************/
-#index-cloud{
-    position: relative;
-  }
 
-#index-cloud h1{
-    position: absolute;
-    top: 8rem;
-    left: 42%;
-    margin: 0;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 4rem;
-    color: #15d0e5;
-   }
-   #download-cloud{
-    background:#031d33;
-     margin-top: 6rem;
-     border:1px solid rgb(70, 190, 226);
-     }
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-cloud .section {
-    top: 10%;
-  }
+#arrow{
+  text-align: center;
+  background-color: rgba(233, 233, 235, 0.5);
+	border: 1px solid #0e2c4f;
+	border-radius: 2px;
 }
-
-@media only screen and (max-width : 600px) {
-	#index-cloud .section {
-    top: 0;
-    }
-    #index-cloud h1{
-      font-size: 3rem;
-      margin-top: 2rem;
-      line-height: 2.2rem;
-    }
-    #download-cloud{
-     font-size: 12px;
-     font-weight: bold;
-      }
-    }
-
-    .line{
-        position: relative;
-    }
-/*
-    .line-title{
-        margin-top:0;
-        position: absolute;
-        left:-1rem;
-        top: 20rem;
-        font-size:20px;
-        transform: rotate(-90deg);
-    }
-    
-    .line-title::after{
-        width: 100px;
-        height: 3px;
-        background-color: #5CE0F2;
-        content: "";
-        position:absolute;
-        left:-120px;
-        top:9px;
-    }
-*/    
 .block_one{
 	width: 70px;
 	height: 2px;
@@ -87,7 +28,6 @@
 
 .container-cloud{
   background-color: rgb(236, 234, 234);
-    grid-column: 1/-1;
     display: flex;
     justify-content: space-between;
     padding: 1em;
@@ -95,12 +35,12 @@
     margin: 0em;
    }
   #container-cloud img {
-    margin: 8em 0rem 5rem 2rem;
-    height: 50vh;
-    width: 20%;
+    padding: 0;
+    margin:8em 0rem 5rem 0rem;
+    width: 35%;
   }
   #container-cloud .work-text {
-    width: 80%;
+    width: 70%;
     margin-top: -1.7em;
     padding: 1em 0 1em 2em;
     display: flex;
@@ -132,7 +72,7 @@
   
   @media only screen and (max-width : 600px) {
     .container-cloud{
-       height: 105vh;
+       height: 130vh;
        position:relative;
        margin:0;
        padding: 0;
@@ -147,15 +87,18 @@
         }
         #container-cloud img {
         position: absolute;
-        opacity: 0.4;
-        top:9rem;
-        left: 10%;
-        width: 60%;
+        opacity: 0.7;
+        top: 45rem;
+        left: 2rem;
+        width: 100%;
         }
     }
   /***************************************************************/
   .vantagens {
-	background-color:rgb(54, 54, 54);
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -183,7 +126,7 @@
   }
  /*******************************************************************/
   #purpose {
-    background-color: rgb(236, 234, 234);
+    background-color: rgb(221, 219, 219);
     min-height: auto;
     padding-top: 2rem;
     margin:0;
@@ -201,7 +144,7 @@
   }
   #purpose h3 {
     font-family: "Ubuntu",serif;
-    font-size: 4rem;
+    font-size: 3rem;
     letter-spacing: -2px;
     margin-bottom: 1rem;
    
